@@ -1,3 +1,5 @@
+//VIDEO SIMON : https://youtu.be/8Qgx5tdJKn0
+//VIDEO NINO : https://www.youtube.com/watch?v=TqFdMAgFVXk
 let pasar = 0, mov = 0
   let pasar2=0, negro=0
   let pantalla=[], texto=[], musica
@@ -58,4 +60,5 @@ function mousePressed() {
   }
   pantallac()
 }
+
 
