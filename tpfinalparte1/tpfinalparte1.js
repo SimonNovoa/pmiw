@@ -41,8 +41,8 @@ function draw() {
     musica.amp(0.25)
   }
   
-      fill(0, 255, 255)
-    text(mouseX+','+ mouseY, mouseX, mouseY)
+  //    fill(0, 255, 255)
+   // text(mouseX+','+ mouseY, mouseX, mouseY)
 }
 function mousePressed() {
   if (pasar<1 && pasar2==0 && mouseX > 525 &&  mouseX < 525+100 && mouseY > 270 && mouseY < 270 +20) {
@@ -58,3 +58,4 @@ function mousePressed() {
   }
   pantallac()
 }
+
